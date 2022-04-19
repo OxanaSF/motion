@@ -14,17 +14,14 @@ const Sidebar = ({ children }) => {
       name: "Button",
     },
     {
-    path: "/page2",
-      name: "Page 2",
+    path: "/loader",
+      name: "Loader",
     },
     {
-      path: "/page3",
-      name: "Page 3",
+      path: "/modal",
+      name: "Modal",
     },
-    {
-      path: "/page4",
-      name: "Page4",
-    },
+   
   ];
 
   const [isOpen, setIsOpen] = useState(false)

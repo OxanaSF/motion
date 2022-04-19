@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Button = () => {
   return (
     <div className="page1 page"> 
-      <motion.button
+      <motion.button className="btn-demo"
         whileHover={{
           scale: 1.1,
           textShadow: '0px 0px 8px rgb(255, 255, 255)',
